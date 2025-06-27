@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
 import Habilidades from './Componentes/habilidades';
+import fotoPerfil from './assets/fotoPerfil.jpg';
 
 function App() {
   return (
     <div className="cv-principal-contenedor">
       <div className="columna-izquierda">
         <section>
-          <img src="/src/assets/fotoPerfil.jpg" alt="Foto de Perfil" width="250" height="300" className='estilo-foto'></img>
+          <img src={fotoPerfil} alt="Foto de Perfil" width="250" height="300" className='estilo-foto'></img>
         <p>Contenido de la Columna Izquierda</p>
         </section>
         <div className = 'info-personal'>
